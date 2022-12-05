@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&display=swap');
+
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+.container
+{
+ height: 75px;
+ display: grid;
+ grid-template-areas: 
+"qznachok  lupa menu user korzina";
+ grid-template-columns: 72px 140px; 
+ align-items: center;
+ padding-left: 16px;
+ padding-right: 16px;
+ justify-content: space-between;
+}
+.user
+{
+ display: none;
+} 
+.korzina
+{
+ display: none;
+}
+.shoping-header{
+ background: #F8F3F4;
+ height: 148px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.shoping
+{
+ font-family: Lato;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 24px;
+ line-height: 29px;
+ color: #F16D7F;
+   }
+.YourName
+{
+ padding-top: 40.41px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.Zagolovok{
+ font-family: Lato;
+ font-style: normal;
+ font-weight: 300;
+ font-size: 16px;
+ line-height: 19px;
+ color: #222222;   
+}
+.text
+{
+ font-family: Lato;
+ font-style: normal;
+ font-weight: 300;
+ font-size: 13px;
+ line-height: 16px;
+ color: #B1B1B1;
+}
+.FirstName
+{
+border: 1px solid #A4A4A4;    
+height: 44.88px;
+width: 359px;
+}
+.LastName
+{
+ border: 1px solid #A4A4A4;    
+ height: 44.88px;
+ width: 359px;
+}
+.First
+{
+padding-top: 19.94;    
+}
+.Last
+{
+padding-top: 19.94;     
+}
+.button {
+background-color: white;
+border: 3px solid grey;
+box-sizing: border-box;
+height: 17px;
+width: 17px;
+}
+.button {
+border-radius: 100px;
+}
+.knopki{
+padding-top: 31px;
+padding-left: 9px;
+display: flex;
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+align-items: center;
+color: #000000;
+justify-content: center;
+}
+.knopk 
+{
+padding-left: 10px;
+padding-right: 20px;
+}
+.coment
+{ 
+padding-top: 15px;
+}
+.comentuse
+{ 
+border: 1px solid   #ffffff;
+height: 32px;
+width: 358px;
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+color: #B1B1B1; 
+}
+.procesced
+{
+ padding-top: 39px;   
+}
+.JOINNOW
+{
+color: #ffffff;  
+border: 1px solid #F16D7F;
+background: #F16D7F;
+height: 50px;
+width: 167px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+.LOYALTY
+{
+padding-top: 40px;
+display: flex;
+justify-content: center;
+}
+.loyaliticontainer
+{
+height: 340.81px; 
+width: 358px;
+border: 1px solid white;
+}
+.PERKS
+{
+ font-family: Lato;
+ font-style: normal;
+ font-weight: 300;
+ font-size: 16px;
+ line-height: 19px; 
+ color: #000000;
+}
+.getprogram
+{
+ padding-top: 32.36px;
+ font-family: Lato;
+ font-style: normal;
+ font-weight: 300;
+ font-size: 16px;
+ line-height: 19px;
+ color: #000000;
+}      
+.welcome
+{
+padding-top: 22.25px;
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+.punkt
+{
+padding-top: 17.19px;
+}
+.footerSUBSCRIBE
+{
+padding-top: 96.19px;
+}
+.headersubscribe
+{
+flex-grow: 1;
+background-image:url(img/fon.svg ) ;
+background-repeat: no-repeat;
+background-position: right center;
+background-size:cover ;
+display: flex;  
+justify-content: center;
+flex-direction: column;
+align-items: center;
+list-style-type: none;  
+}
+.prompro
+{
+  padding-top: 64px;
+}
+.pro
+{
+border: 1px solid rgba(255, 255, 255, 0);
+width: 343px;
+height: 194px;
+display: grid;
+justify-items: center;
+}
+.opisanie
+{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #222224;   
+}
+.subscribe
+{
+padding-top: 59px;   
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 153.2%;
+text-align: center;
+color: #222224;
+}
+.promotion
+{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 153.2%;
+text-align: center;
+color: #222224;  
+}
+.but
+{
+padding-top: 22.15px;
+padding-bottom: 109.92px; 
+display: flex; 
+list-style-type: none;
+justify-content: center; 
+align-items: center;
+}
+.Email
+{
+
+border: 1px solid  #E1E1E1;; 
+width: 191px; 
+height: 47px;
+background: #E1E1E1;
+border-radius: 25px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+color: #222224;
+opacity: 0.67;
+text-decoration: none;
+}
+.subscribee
+{
+  
+justify-content: center;   
+right: 15px;
+padding-top:0px;
+position: relative;   
+border: 1px solid #F16D7F;
+width: 96px;
+height: 47px;
+background: #F16D7F;
+border-radius: 0px 25px 25px 0px;    
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none; 
+}
+.footer-bottom {
+height: 143px;
+background:#222224;
+}
+.bottom-header
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+
+}
+
+.socfo {
+ padding-top: 43px;
+ display: grid;
+grid-template-areas: 
+"soc-1  soc-2 soc-3 soc-4"; 
+column-gap: 7.29px;
+justify-content: center;
+ }
+ .socbrand {
+ padding-top: 25px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #FBFBFB;
+border: 1px solid #222224;
+box-sizing: border-box;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }       
+@media (min-width:768px){
+.user
+{
+ display:flex;
+} 
+.korzina
+{
+ display: flex;
+}
+.container
+{
+grid-template-columns: 41px 424px 25px 42px;
+padding-left:32px;
+padding-right:32px;
+} 
+.shoping-header
+{   
+justify-content: flex-start;
+padding-left: 16px;
+}
+.loyaliticontainer
+{
+height: 337px; 
+width: 355px;
+border: 1px solid white;
+}
+.containerYL
+{
+display: grid;
+grid-template-areas: 
+"headerYourName  LOYALTY  "; 
+justify-content: center;
+grid-template-columns: 427px;
+}
+.women{
+padding-top: 53px; 
+}
+.promo
+{
+padding-top: 59px;  
+}
+.opisanie
+{
+padding-top: 30px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #222224;
+} 
+.subscribe
+{
+padding-top: 48px; 
+line-height: 162%;  
+}
+.but
+{
+padding-bottom: 140px;
+}
+.footer-bottom
+ {
+ height: 79px;
+background:#222224;
+}
+.bottom-header
+{
+display: grid;
+grid-template-areas: 
+"socbrand socfo"; 
+justify-content: space-between;
+padding-left: 32px;
+padding-right: 32px;
+}
+.socfo
+{
+padding-top: 24px; 
+}
+}
+@media (min-width:1600px) {
+.container
+{
+grid-template-columns: 41px 859px 25px 42px;
+padding-left:230px;
+padding-right:230px;
+}
+.shoping-header
+{  
+padding-left: 230px;    
+}
+.loyaliticontainer
+{
+height: 334px; 
+width: 652px;
+border: 1px solid white;
+}
+.containerYL
+{
+grid-template-columns: 510px;
+
+}
+.PERKS
+{
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+}
+.getprogram
+{
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+}
+.punkt
+{
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+}
+.women{
+padding-top: 97px; 
+}
+.opisanie
+{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #222224;
+}
+.subscribe
+{ 
+font-size: 24px;
+line-height: 29px;     
+}
+.propromo
+{
+display: grid;
+grid-template-areas: 
+"pro promo  "; 
+justify-content: center;
+grid-gap: 318px;
+justify-items: center;
+}
+
+.bottom-header
+{
+padding-left: 235px;  
+padding-right: 230px;
+}  
+}
